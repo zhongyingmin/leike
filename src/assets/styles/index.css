@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html,
+body,
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #fff;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #32f1b4;
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #32f1b4;
+}
+/* .box_checkbox{
+  position: relative;
+}
+.box_checkbox label{
+  cursor: pointer;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top:0;               
+  left: 0;
+  background: transparent;        
+  border: 1px solid #267BC1;
+}
+.box_checkbox label:after{
+  opacity: 1;        
+  content: '';   
+  position: absolute;
+  width: 12px;
+  height: 5px;
+  background: transparent;
+  top: 5px;
+  left: 4px;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;    
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.box_checkbox input[type=checkbox]:checked + label:after{
+  opacity: 0;        
+}
+input[type=checkbox]{
+  visibility: hidden;
+} */
