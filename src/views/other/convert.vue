@@ -1,11 +1,11 @@
 <template>
-  <div class="change">
-    <div class="change-content">
+  <div class="convert">
+    <div class="convert-content">
       <div class="close" @click="close">
         <i class="el-icon-close"></i>
       </div>
       <div class="title-wrapper">
-        坐标转换
+        {{$t('convert')}}
       </div>
       <div class="column-wrapper">
         <div class="top-wrapper">
@@ -36,7 +36,7 @@
           <div class="left">
             <div class="form-wrapper">
               <div class="form-item">
-                <div class="label-title">输入源坐标</div>
+                <div class="label-title">{{$t('source')}}</div>
                 <div class="botton-wrapper"></div>
               </div>
               <div class="form-item">
@@ -75,11 +75,11 @@
             </div>
           </div>
           <div class="center">
-            <div class="confirm" @click="confirm">转换坐标</div>
+            <div class="confirm" @click="confirm">{{$t('change')}}</div>
           </div>
           <div class="right">
             <div class="form-item">
-              <div class="label-title">输出目标做坐标</div>
+              <div class="label-title">{{$t('new')}}</div>
               <div class="botton-wrapper"></div>
             </div>
             <div class="form-item">
@@ -123,7 +123,7 @@
 </template>
 
 <script>
-import { coordtrans } from "@/api/other/change";
+import { coordtrans } from "@/api/other/convert";
 export default {
   components: {},
   props: {},
@@ -184,10 +184,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.change {
+.convert {
   position: relative;
   height: 100%;
-  .change-content {
+  .convert-content {
     position: absolute;
     left: 50%;
     top: 50%;
