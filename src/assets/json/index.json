@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "config": {
+        "languages": "zh",
+        "jsonStr": "{\"layer\":{\"dataItem\":[{\"input\":false,\"name\":\"地形图层\",\"type\":\"isShowTerrain\",\"gradient\":[\"#FFFA15\",\"#00ff00\",\"#0000ff\"]},{\"input\":false,\"name\":\"形变图层\",\"type\":\"xb\",\"gradient\":[\"#F50A0A\",\"#00ff00\",\"#0000ff\"]},{\"input\":true,\"name\":\"形变速度图层\",\"type\":\"xbsd\",\"gradient\":[\"#FFFA15\",\"#00ff00\",\"#0000ff\"]},{\"input\":true,\"name\":\"形变加速度图层\",\"type\":\"xbjsd\",\"gradient\":[\"#FFFA15\",\"#00ff00\",\"#0000ff\"]}],\"form\":{\"xbmin\":\"-50\",\"xbmax\":\"50\",\"xbsdmin\":\"-10\",\"xbsdmax\":\"10\",\"xbjsdmin\":\"-10\",\"xbjsdmax\":\"10\",\"xbjsdopacity\":40,\"xbsdopacity\":27,\"xbopacity\":51}}}",
+        "alarmsound": "media/alarm.mp3",
+        "reportconfig": {
+            "time": "09:00",
+            "target": 1,
+            "status": 1
+        }
+    }
+}
